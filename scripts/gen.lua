@@ -21,9 +21,8 @@ local theme_json = {
     cursor       = flavor.text,
     cursorAccent = flavor.text,
 
-    selectionBackground         = flavor.crust,
-    selectionForeground         = flavor.mantle,
-    selectionInactiveBackground = flavor.base,
+    selectionBackground         = flavor.surface0,
+    selectionInactiveBackground = flavor.surface1,
 
     black         = is_latte and flavor.subtext1 or flavor.surface1,
     brightBlack   = is_latte and flavor.subtext0 or flavor.surface2,
